@@ -6,7 +6,7 @@
 		practice.SpaceException: 설치 공간 부족
 		at practice.NewExceptionTest.startInstall(NewExceptionTest.java:25)
 		at practice.NewExceptionTest.main(NewExceptionTest.java:8)
-	space check and retry plz
+	space check and retry plz 
 
  */
 
