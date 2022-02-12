@@ -2,6 +2,14 @@
  * 자바의 정석 예제 8-23
  * 2022-02-12 02:57
  * 
+ * practice.InstallException: 설치 중 예외발생s
+	at practice.ChainedExceptionEx.install(ChainedExceptionEx.java:27)
+	at practice.ChainedExceptionEx.main(ChainedExceptionEx.java:13)
+Caused by: practice.SpaceException: 공간 부족
+	at practice.ChainedExceptionEx.startInstall(ChainedExceptionEx.java:40)
+	at practice.ChainedExceptionEx.install(ChainedExceptionEx.java:24)
+	... 1 more
+
 */
 
 package practice;
