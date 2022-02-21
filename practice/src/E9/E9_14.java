@@ -11,27 +11,27 @@ class Exercise9_14 {
 		while (true) {
 			System.out.print(">>");
 			String input = s.nextLine().trim();
-			
+
 			if (input.equals("")) {
 				continue;
 			} else if (input.equalsIgnoreCase("Q")) {
 				System.exit(0);
 			}
-			
+
 			Pattern p = Pattern.compile(".*" + input + ".*");
-			
-			for(int i = 0; i<phoneNumArr.length; i++) {
+
+			for (int i = 0; i < phoneNumArr.length; i++) {
 				String phoneNum = phoneNumArr[i];
 				String tmp = phoneNum.replace("-", "");
-				
+
 				Matcher m = p.matcher(tmp);
-				
-				if(m.find()) {
+
+				if (m.find()) {
 					list.add(phoneNum);
-					
+
 				}
 			}
-			
+
 			if (list.size() > 0) {
 				System.out.println(list);
 				list.clear();

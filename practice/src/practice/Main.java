@@ -1,19 +1,24 @@
 package practice;
 
-import java.util.Calendar;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Calendar cal2 = Calendar.getInstance();
-		Calendar cal1 = Calendar.getInstance();
-		cal2.set(2015, 7, 16); // 날짜를 2015년 8월 15일로 설정한다.
-		cal1.set(2015, 7, 15); // 날짜를 2015년 8월 15일로 설정한다.
+		Scanner s = new Scanner(System.in);
 
-		long difference = (cal2.getTimeInMillis() - cal1.getTimeInMillis())/1000;      //두 날짜간의 차이.
+		ArrayList list = new ArrayList();
+		ArrayList list2 = new ArrayList();
 		
-		System.out.println(difference/24);
+		for(int i = 0 ; i<9; i++) {
+			int b=s.nextInt();
+			list.add(b);
+		}
+		System.arraycopy(list, 0, list2, 0, 8);
 		
+		list2.sort(null);
+		System.out.print(list.indexOf(list2.get(8)));
 	}
 
 }
