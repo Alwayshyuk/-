@@ -11,6 +11,7 @@ public class Bomb {
 				System.out.print("\t");
 			}
 			System.out.println("\n");
+			
 		}
 		System.out.println("----------------------------------------------------------");
 
