@@ -114,8 +114,4 @@ public class MyVector {
 	public ListIterator listIterator(int index)	{return null;}
 	public List subList (int fromIndex, int toIndex)	{return null;}
 	
-	default void sort(Comparator c)	{////}
-	default Spliterator spliterator()	{////}
-	default void replaceAll(UnaryOperator operator)	{////}
-	}
 }
