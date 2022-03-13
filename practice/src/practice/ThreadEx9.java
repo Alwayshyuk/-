@@ -1,4 +1,4 @@
-package tmp;
+package practice;
 
 public class ThreadEx9 {
 
