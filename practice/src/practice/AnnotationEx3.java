@@ -7,7 +7,7 @@ class NewClass{
 	int getNewField() {
 		return newField;
 	}
-	@Deprecated
+	@Deprecated 
 	int oldField;
 	
 	@Deprecated
