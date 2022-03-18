@@ -1,4 +1,4 @@
-package tmp;
+package practice;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
