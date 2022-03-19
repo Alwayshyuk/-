@@ -22,7 +22,7 @@ public class ThreadEx10 implements Runnable{
 	public void run()	{
 		while(true) {
 			try {
-				Thread.sleep(2*1000);
+				Thread.sleep(3*1000);
 			} catch (InterruptedException e) {}
 			//autoSave의 값이 true면 autoSave()를 호출한다.
 			if(autoSave)
