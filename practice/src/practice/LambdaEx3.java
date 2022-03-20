@@ -1,4 +1,4 @@
-package tmp;
+package practice;
 
 @FunctionalInterface
 interface MyFunction {
